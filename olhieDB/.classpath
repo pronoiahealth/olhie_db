@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/hazelcast-2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/javassist.jar"/>
+	<classpathentry kind="lib" path="lib/jna-3.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/orient-commons-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-client-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-core-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-distributed-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-enterprise-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-nativeos-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-object-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-server-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/orientdb-tools-1.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/platform.jar"/>
+	<classpathentry kind="lib" path="lib/snappy-0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
