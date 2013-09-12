@@ -24,6 +24,10 @@ public class BookCreate {
 		prop.setMax("250");
 		// base64LogoData STRING
 		prop = bookClass.createProperty("base64LogoData", OType.STRING);
+		// base64FrontCovver
+		prop = bookClass.createProperty("base64FrontCover", OType.STRING);
+		// base64BackCover
+		prop = bookClass.createProperty("base64BackCover", OType.STRING);
 		// bookDescriptions LINKLIST LINKLIST Bookassetdescription
 		bookClass.createProperty("bookDescriptions", OType.LINKLIST, Bookassetdescription );
 		// createdDate DATETIME
@@ -61,6 +65,8 @@ public class BookCreate {
 		prop.setNotNull(true);
 		// actDate DATETIME
 		prop = bookClass.createProperty("actDate", OType.DATETIME);
+		// solrUpdate
+		prop = bookClass.createProperty("solrUpdate", OType.DATETIME);
 		
 		// Create indexes
 		bookClass.createIndex("bookTitle_Idx", INDEX_TYPE.NOTUNIQUE, "bookTitle");
